@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "cart-pole"
+version = "0.1.0"
+description = "Solving cart pole problem using genetic algorithm"
+authors = ["cl3t0 <cl3t0.sh@gmail.com>"]
+readme = "README.md"
+packages = [{include = "cart-pole"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = "^1.13.0"
+gym = "0.17.3"
+tqdm = "^4.64.1"
+matplotlib = "^3.6.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = {version = "^22.10.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
