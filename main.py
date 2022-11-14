@@ -12,7 +12,7 @@ generation_quantity = 1000
 population_size = 100
 mutation_rate = 0.5
 selection_percentage = 0.5
-test_quantity = 5
+test_quantity = 50
 
 env = gym.make("CartPole-v0")
 
